@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 /* styling for the footer of the page */
 
 section{
@@ -7,15 +8,18 @@ section{
     font-size: 20px;
     line-height: 24px;
 }
-.col-1{
-
+.footerCol-1{
+    font-family: inter;
 }
-.col-1-b{
+.footerCol-1-b{
     padding: 0px 10px;
     text-decoration: none;
     color: #0057FF; 
 }
-.col-2{
+.footerCol-1-b:hover{
+    text-decoration: underline;
+}
+.footerCol-2{
     display: flex;
     flex-direction: row;
 }
