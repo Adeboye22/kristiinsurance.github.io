@@ -19,8 +19,6 @@ function App() {
         <Route path = '/Services' element = {<Services />} />
         <Route path = '/Contact' element = {<Contact />} />
         <Route path = '/About' element = {<About />} />
-        <Route path = '/Register' element = {<Register />} />
-        <Route path = '/Login' element = {<Login />} />
       </Routes>
       <Footer />
     </div>
