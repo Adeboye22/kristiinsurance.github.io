@@ -23,7 +23,7 @@ function Navigation() {
                 <li><NavLink style={navLinkStyle} to = '/' element = {<Home />} className = 'home'>Home</NavLink></li>
                 <li><NavLink style={navLinkStyle} to = '/Services' element = {<Services />} className ='services'>Services</NavLink></li>
                 <li><NavLink style={navLinkStyle} to = '/Contact' element = {<Contact />} className = 'contact'>Contact Us</NavLink></li>
-                <li><NavLink style={navLinkStyle} to = '/About' element = {<About />} className = 'about'>About US</NavLink></li>
+                <li><NavLink style={navLinkStyle} to = '/About' element = {<About />} className = 'about'>About Us</NavLink></li>
             </ul>
             <div className = 'col-nav-btn'>
               <Link to = '/Register' element = {<Register />}><button className = 'nav-btn-1'>Register</button ></Link>
