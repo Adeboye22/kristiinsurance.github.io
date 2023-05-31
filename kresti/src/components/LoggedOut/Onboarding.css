@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+/* styling for Onboarding */
+
+.Onboarding{
+    background: url(../../assets/Cars_lnd-scp_1.jpg);
+    background-size: cover;
+    height: 120%;
+    background-position-y: center;
+}
+.Onbd-Overlay{
+    background: rgba(255, 255, 255, 0.495);
+}
+.Onbd-h1{
+    padding: 16.2%;
+    margin-left: 5rem;
+    font-weight: 700;
+    font-family: inter;
+    color: rgba(0, 0, 0, 0.934);
+}

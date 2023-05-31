@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+/* styling for NavBar */
+:root{
+    --btnColor: #0057ff;
+}
+
+header{
+    margin: 0px;
+    padding: 1rem 1rem;
+    display: flex;
+}
+header h1{
+    font-size: 25px;
+    color: var(--btnColor);
+    padding: 0rem 2rem ;
+    cursor: pointer;
+}
+.NavBar-col-btn{
+    margin-left: 40rem;
+    margin-top: 10px;
+}
+.sign-up-btn{
+    font-family: inter;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: solid 1px var(--btncolor);
+    cursor: pointer;
+}
+.login-btn{
+    font-family: inter;
+    padding: 10px 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    background-color: var(--btnColor);
+    color: white;
+    border-radius: 5px;
+    border: solid 1px black;
+}

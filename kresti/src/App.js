@@ -1,27 +1,15 @@
 import {Routes, Route} from 'react-router-dom';
 import './App.css';
-import Navigation from './components/Navigation';
-import Home from './components/Home';
-import Services from './components/Services';
-import Contact from './components/Contact';
-import About from './components/About'
-import Register from './components/Register'
-import Login from './components/Login'
-import Footer from './components/Footer';
+import Onboarding from './components/LoggedOut/Onboarding';
 
 
 function App() {
   return (
-    <div className="App">
-      <Navigation />
+    <>
       <Routes>
-        <Route path = '/' element = {<Home />} />
-        <Route path = '/Services' element = {<Services />} />
-        <Route path = '/Contact' element = {<Contact />} />
-        <Route path = '/About' element = {<About />} />
+        <Route path = '/' element = {<Onboarding />} />
       </Routes>
-      <Footer />
-    </div>
+    </>
   );
 }
 
