@@ -27,7 +27,7 @@ header h1{
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 5px;
-    border: solid 1px black;
+    border: solid 1px #0057ff;
     background-color: white;
     cursor: pointer;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.416);

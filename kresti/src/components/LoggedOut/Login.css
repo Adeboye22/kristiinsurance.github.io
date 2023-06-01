@@ -20,6 +20,8 @@
 .lgn-h1{
     text-align: center;
     margin-top: 4rem;
+    font-family: inter;
+    font-weight: 700;
 }
 .lgn-input{
     display: flex;
@@ -31,12 +33,16 @@
     padding: 15px 30px;
     border: #0057ff solid 1px;
     border-radius: 5px;
+    font-family: inter;
+    font-weight: 300;
 }
 .lgn-pwd{
     margin-bottom: 1.5em;
     padding: 15px 300px 15px 10px;
     border: #0057ff solid 1px;
     border-radius: 5px;
+    font-family: inter;
+    font-weight: 300;
 }
 .lgn-sbmt{
     padding: 10px;
@@ -45,4 +51,6 @@
     background: #0057ff;
     color: white;
     cursor: pointer;
+    font-family: inter;
+    font-weight: 300;
 }
