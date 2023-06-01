@@ -4,3 +4,23 @@
 .Login{
     background: white;
 }
+.lgn-sec{
+    padding: 5% 20% 5% 0%;
+    display: flex;
+    flex-direction: row;
+}
+.lgn-col-1{
+    padding: 50px;
+}
+.lgn-img{
+    height: 20em;
+    width: 30em;
+    border-radius: 10px;
+}
+.lgn-h1{
+    text-align: center;
+}
+.lgn-input{
+    display: flex;
+    flex-direction: column;
+}
