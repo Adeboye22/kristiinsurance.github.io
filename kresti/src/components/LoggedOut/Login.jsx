@@ -2,10 +2,10 @@ import React from 'react'
 
 function Login() {
   return (
-    <div>
+    <div className='Login'>
       
     </div>
   )
 }
 
-export default Login;
+export default Login

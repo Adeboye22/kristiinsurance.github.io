@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './FootBar.css'
+import Login from '../Login';
 
 
 function FootBar() {
@@ -10,7 +11,7 @@ function FootBar() {
             <hr />
             <section className = 'footerCol-1'>
                 <div>
-                    <span className = 'footerCol-1-a'>Already have an account?</span><span className = 'footerCol-1-b'><Link to = '/Login' element = 'Login' className = 'footerCol-1-b'>Log in</Link></span>
+                    <span className = 'footerCol-1-a'>Already have an account?</span><span className = 'footerCol-1-b'><Link to = '/Login' element = {<Login />} className = 'footerCol-1-b'>Log in</Link></span>
                 </div>
                 <div className = 'footerCol-2'>
                     <article>Privacy</article>

@@ -43,7 +43,7 @@
     }
     100%
     {
-        background-image: url(../../assets/House_lnd-scp_2.jpg);
+        background-image: url(../../assets/House_lnd-scp_3.jpg);
     }
 }
 @keyframes spin{
@@ -54,22 +54,22 @@
     }
     25%
     {
-        content: "kjhgfhjkjhg";
+        content: "WELCOME TO THE MODERN INSURANCE ERA";
         font-size: 25px;
     }
     50%
     {
-        content: "uiojsudznipjnmopkd";
+        content: "WE INSURE AUTOMOBILES";
         font-size: 25px;
     }
     75%
     {
-        content: "ubiojchubhjai";
+        content: "WE INSURE PORPERTIES";
         font-size: 25px;
     }
     100%
     {
-        content: "ouibuidhzfujpisdfuheybdfhjvcj";
-        font-size: 25px;
+        content: "CHECK OUT OUR AMAZING INSURANCE PLANS";
+        font-size: 25px;  
     }
 }
