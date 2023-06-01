@@ -6,14 +6,70 @@
     background-size: cover;
     height: 120%;
     background-position-y: center;
+    animation: change 60s infinite ease-in-out;
 }
 .Onbd-Overlay{
-    background: rgba(255, 255, 255, 0.495);
+    background: rgba(255, 255, 255, 0.664);
 }
-.Onbd-h1{
-    padding: 16.2%;
-    margin-left: 5rem;
+.Onbd-txt{
+    padding: 13.9rem;
+    text-align: center;
+}
+.Onbd-spn{
     font-weight: 700;
     font-family: inter;
-    color: rgba(0, 0, 0, 0.934);
+    color: black;;
+}
+.Onbd-spn:after{
+    content: "";
+    animation: spin 60s infinite ease-in-out;
+}
+@keyframes change{
+    0%
+    {
+        background-image: url(../../assets/Cars_lnd-scp_1.jpg);
+    }
+    25%
+    {
+        background-image: url(../../assets/House_lnd-scp_1.jpg);
+    }
+    50%
+    {
+        background-image: url(../../assets/Cars__lnd-scp_2.jpg);
+    }
+    75%
+    {
+        background-image: url(../../assets/House_lnd-scp_2.jpg);
+    }
+    100%
+    {
+        background-image: url(../../assets/House_lnd-scp_2.jpg);
+    }
+}
+@keyframes spin{
+    0%
+    {
+        content: "THE POTENCY OF INSURANCE INTEGRATION";
+        font-size: 25px;
+    }
+    25%
+    {
+        content: "kjhgfhjkjhg";
+        font-size: 25px;
+    }
+    50%
+    {
+        content: "uiojsudznipjnmopkd";
+        font-size: 25px;
+    }
+    75%
+    {
+        content: "ubiojchubhjai";
+        font-size: 25px;
+    }
+    100%
+    {
+        content: "ouibuidhzfujpisdfuheybdfhjvcj";
+        font-size: 25px;
+    }
 }

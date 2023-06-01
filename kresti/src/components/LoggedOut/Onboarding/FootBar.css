@@ -14,7 +14,8 @@ section{
 .footerCol-1-b{
     padding: 0px 10px;
     text-decoration: none;
-    color: #0057FF; 
+    color: #0057FF;
+    cursor: pointer;
 }
 .footerCol-1-b:hover{
     text-decoration: underline;
@@ -25,5 +26,5 @@ section{
 }
 article{
     padding:0rem 1rem;
-    font-weight: 500;
+    cursor: pointer;
 }

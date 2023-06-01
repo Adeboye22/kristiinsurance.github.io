@@ -9,7 +9,9 @@ function Onboarding() {
         <div className = "Onboarding">
           <div className="Onbd-Overlay">
             <NavBar />
-            <h1 className='Onbd-h1'>THE POTENCY OF INSURANCE INTEGRATION</h1>
+            <div className="Onbd-txt">
+              <span className='Onbd-spn'></span>
+            </div>
             <FootBar />
           </div> 
         </div>
