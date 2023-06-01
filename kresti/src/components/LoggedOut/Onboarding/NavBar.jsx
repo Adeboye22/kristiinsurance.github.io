@@ -2,13 +2,14 @@ import React from 'react'
 import {Link} from 'react-router-dom';
 import '../Onboarding/NavBar.css'
 import Login from '../Login';
+import Onboarding from '../Onboarding';
 
 
 function NavBar() {
   return (
     <div>
       <header>
-        <h1>Kresti Investment LLC</h1>
+        <Link to="/" element={<Onboarding />} className='navBar-h1'><h1>Kresti Investment LLC</h1></Link>
         <div className='NavBar-col-btn'>
             <Link><button className='sign-up-btn'>Sign up</button></Link>
             <Link  to = "/Login" element = {<Login />}><button className='login-btn'>Log in</button></Link>

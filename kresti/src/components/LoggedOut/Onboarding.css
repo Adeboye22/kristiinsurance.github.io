@@ -18,11 +18,14 @@
 .Onbd-spn{
     font-weight: 700;
     font-family: inter;
-    color: black;;
+    color: white;
+    background: #0057ff;
+    padding: 30px;
+    mix-blend-mode:darken;
 }
 .Onbd-spn:after{
     content: "";
-    animation: spin 60s infinite ease-in-out;
+    animation: spin 15s infinite ease-in-out;
 }
 @keyframes change{
     0%
