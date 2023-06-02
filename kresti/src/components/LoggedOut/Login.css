@@ -29,8 +29,10 @@
     padding: 1rem 3rem;
 }
 .lgn-uName{
-    margin-bottom: 1em;
-    padding: 15px 30px;
+    margin-bottom: 1.5em;
+    width: 35em;
+    height: 3em;
+    padding: 0em 1em;
     border: #0057ff solid 1px;
     border-radius: 5px;
     font-family: inter;
@@ -38,7 +40,9 @@
 }
 .lgn-pwd{
     margin-bottom: 1.5em;
-    padding: 15px 300px 15px 10px;
+    width: 35em;
+    height: 3em;
+    padding: 0em 1em;
     border: #0057ff solid 1px;
     border-radius: 5px;
     font-family: inter;
