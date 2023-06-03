@@ -1,35 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
-/* styling for Login page */
+/* styling for SignUp page */
 
-.Login{
-    background: white;
-}
-.lgn-sec{
+.sgnUp-sec{
     padding: 0% 20% 5% 0%;
     display: flex;
     flex-direction: row;
 }
-.lgn-col-1{
-    padding: 50px;
+.sgnUp-col-1{
+    padding: 100px 50px;
 }
-.lgn-img{
+.sgnUp-col-1-img{
     height: 20em;
     width: 30em;
     border: 1px solid #0055ff30;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.043);
     border-radius: 10px;
 }
-.lgn-h1{
+.sgnUp-h1{
     text-align: center;
-    margin-top: 4rem;
     font-family: inter;
     font-weight: 700;
 }
-.lgn-input{
+.sgnUp-input{
     display: flex;
     flex-direction: column;
     padding: 1rem 3rem;
 }
-.lgn-uName{
+.sgnUp-Fname{
     margin-bottom: 1.5em;
     width: 35em;
     height: 3em;
@@ -39,7 +36,7 @@
     font-family: inter;
     font-weight: 300;
 }
-.lgn-pwd{
+.sgnUp-Lname{
     margin-bottom: 1.5em;
     width: 35em;
     height: 3em;
@@ -49,7 +46,37 @@
     font-family: inter;
     font-weight: 300;
 }
-.lgn-btn{
+.sgnUp-Email{
+    margin-bottom: 1.5em;
+    width: 35em;
+    height: 3em;
+    padding: 0em 1em;
+    border: #0057ff solid 2px;
+    border-radius: 5px;
+    font-family: inter;
+    font-weight: 300;
+}
+.sgnUp-pwd-1{
+    margin-bottom: 1.5em;
+    width: 35em;
+    height: 3em;
+    padding: 0em 1em;
+    border: #0057ff solid 2px;
+    border-radius: 5px;
+    font-family: inter;
+    font-weight: 300;
+}
+.sgnUp-pwd-2{
+    margin-bottom: 1.5em;
+    width: 35em;
+    height: 3em;
+    padding: 0em 1em;
+    border: #0057ff solid 2px;
+    border-radius: 5px;
+    font-family: inter;
+    font-weight: 300;
+}
+.sgnUp-sbmt{
     padding: 10px;
     border-radius: 5px;
     border: white solid 1px;
@@ -60,32 +87,25 @@
     font-weight: 300;
     font-size: 16px;
 }
-.lgn-hr{
-    display: flex;
-}
-.lgn-hr-1{
-    width: 10em;
-    height: 0em;
-    margin-top: 13px;
-}
-.lgn-hr-spn{
+.sgnUp-checkBox{
+    text-align: center;
     font-family: inter;
+    font-size: 16px;
     font-weight: 300;
 }
-.lgn-hr-2{
-    width: 10em;
-    height: 0em;
-    margin-top: 13px;
-    font-size: 16px;
+.sgnUp-chkBx{
+    cursor: pointer;
 }
-.lgn-sgn{
-    text-align: center;
-    margin-top: 30px;
-    font-family: inter;
-    font-size: 16px;
+.sgn-privacy{
+    margin-left: 5px;
 }
-.lgn-spn-2-lnk{
+.sgnUp-prv{
     text-decoration: none;
-    color:#0057ff;
+    color: #0057ff;
+    font-weight: 700;
+}
+.sgn-terms{
+    text-decoration: none;
+    color: #0057ff;
     font-weight: 700;
 }
