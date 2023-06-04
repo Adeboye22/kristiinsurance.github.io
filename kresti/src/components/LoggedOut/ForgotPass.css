@@ -25,8 +25,19 @@
 .fgtPwd-col-3-span{
     font-size: 16px;
     letter-spacing: 1px;
+    margin-bottom: 1em;
 }
 .fgtPwd-col-btn-1{
     width: 10em;
     height: 3em;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    font-family: inter;
+    background-color: #0057ff;
+    color: white;
+    border: 2px solid white;
+    font-size: 18px;
+    border-radius:10px;
+    cursor: pointer;
 }
