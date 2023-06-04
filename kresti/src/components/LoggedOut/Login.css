@@ -17,10 +17,11 @@
     width: 30em;
     border: 1px solid #0055ff30;
     border-radius: 10px;
+    margin-top: 2em;
 }
 .lgn-h1{
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 3rem;
     font-family: inter;
     font-weight: 700;
 }
@@ -51,6 +52,7 @@
 }
 .lgn-btn{
     padding: 10px;
+    margin-bottom: 1em;
     border-radius: 5px;
     border: white solid 1px;
     background: #0057ff;
@@ -59,6 +61,14 @@
     font-family: inter;
     font-weight: 300;
     font-size: 16px;
+}
+.lgn-lnk-1{
+    font-family: inter;
+    font-weight: 300;
+    margin-bottom: 1em;
+    color: red;
+    cursor: pointer;
+    text-decoration: none;
 }
 .lgn-hr{
     display: flex;
