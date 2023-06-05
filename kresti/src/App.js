@@ -4,6 +4,7 @@ import Onboarding from './components/LoggedOut/Onboarding';
 import Login from './components/LoggedOut/Login';
 import SignUp from './components/LoggedOut/SignUp';
 import ForgotPass from './components/LoggedOut/ForgotPass';
+import ResetPass from './components/LoggedOut/ResetPass';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path = '/login' element = {<Login />} />
         <Route path = '/signup' element = {<SignUp />} />
         <Route path = '/forgot-password' element = {<ForgotPass />} />
+        <Route path = '/reset-password' element = {<ResetPass />} />
       </Routes>
     </>
   );
