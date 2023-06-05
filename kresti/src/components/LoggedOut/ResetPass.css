@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+/* styling for reset password page */
+
+.rstPwd-sec{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: inter;
+}
+.rstPwd-col-1{
+    margin: 2em 0em;
+}
+.rstPwd-col-1-spn{
+    font-weight: 700;
+    font-size: 24px;
+}
+.rstPwd-col-2{
+    display: flex;
+    flex-direction: column;
+}
+.rstPwd-col-2-pwd-1{
+    border: solid 2px #0057ff;
+    border-radius: 5px;
+    width: 500px;
+    height: 25px;
+    padding: 0px 10px;
+    margin-bottom: 1.5em;
+    font-family: inter;
+    align-self: center;
+}
+.rstPwd-col-2-pwd-2{
+    border: solid 2px #0057ff;
+    border-radius: 5px;
+    width: 500px;
+    height: 25px;
+    padding: 0px 10px;
+    font-family: inter;
+    align-self: center;
+    margin-bottom: 1.5em;
+}
+.rstPwd-col-2-btn-1{
+    width: 250px;
+    height: 30px;
+    align-self: center;
+    background: #0057ff;
+    color: white;
+    font-family: inter;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}

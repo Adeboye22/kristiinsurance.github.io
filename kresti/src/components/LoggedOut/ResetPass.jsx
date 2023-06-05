@@ -1,4 +1,5 @@
 import React from 'react'
+import './ResetPass.css'
 
 function ResetPass() {
   return (
@@ -10,6 +11,7 @@ function ResetPass() {
         <div className="rstPwd-col-2">
             <input type="password" name="" placeholder='Enter new password' className='rstPwd-col-2-pwd-1' />
             <input type="password" name="" id="" placeholder='Confirm password' className='rstPwd-col-2-pwd-2' />
+            <input type="button" value="Submit" className='rstPwd-col-2-btn-1'  />
         </div>
       </section>
     </div>
