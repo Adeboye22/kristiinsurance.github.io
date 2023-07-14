@@ -4,7 +4,8 @@
 .Onboarding{
     background: url(../../assets/Cars_lnd-scp_1.jpg);
     background-size: cover;
-    height: 120%;
+    height: 100%;
+    width: 100%;
     background-position-y: center;
     animation: change 60s infinite ease-in-out;
 }

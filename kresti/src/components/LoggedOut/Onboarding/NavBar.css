@@ -4,9 +4,9 @@
     --btnColor: #0057ff;
 }
 
-header{
+.navBarHeader{
     margin: 0px;
-    padding: 1rem 1rem;
+    padding: 0.5rem 0.5rem;
     display: flex;
 }
 .navBar-h1{
