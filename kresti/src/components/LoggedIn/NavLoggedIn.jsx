@@ -18,10 +18,10 @@ function NavLoggedIn() {
         <h1>Kresti Investment Agency</h1>
         <nav className='flex'>
             <ul className='flex'>
-                <li><NavLink style={navLinkStyle} to = '/Homepage' element = {<Homepage />} className = 'home'>Home</NavLink></li>
-                <li><NavLink style={navLinkStyle} to = '/Services' element = {<Services />} className ='services'>Services</NavLink></li>
-                <li><NavLink style={navLinkStyle} to = '/Contact' element = {<Contact />} className = 'contact'>Contact Us</NavLink></li>
-                <li><NavLink style={navLinkStyle} to = '/About' element = {<About />} className = 'about'>About Us</NavLink></li>
+                <li><NavLink style={navLinkStyle} to = '/Homepage' element = {<Homepage />} className = ''>Home</NavLink></li>
+                <li><NavLink style={navLinkStyle} to = '/Services' element = {<Services />} className =''>Services</NavLink></li>
+                <li><NavLink style={navLinkStyle} to = '/Contact' element = {<Contact />} className = ''>Contact Us</NavLink></li>
+                <li><NavLink style={navLinkStyle} to = '/About' element = {<About />} className = ''>About Us</NavLink></li>
             </ul>
             <div className = 'col-nav-btn'>
               <Link to = '/Register' element = {<Register />}><button className = 'nav-btn-1'>Register</button ></Link>
