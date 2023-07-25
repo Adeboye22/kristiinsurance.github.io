@@ -1,5 +1,4 @@
 import React from 'react';
-import './Login.css';
 import NavBar from './Onboarding/NavBar';
 import KrestiPadlock from '../../assets/Kresti_padlock.gif';
 import FootBar from './Onboarding/FootBar';
@@ -13,7 +12,7 @@ function Login() {
         <NavBar />
       <section className="lgn-sec">
         <div className="lgn-col-1">
-            <img src={KrestiPadlock} alt="" className='lgn-img'/>
+            <img src={KrestiPadlock} alt="" className='lgnImg'/>
         </div>
         <div className="lgn-col-2">
             <h1 className="lgn-h1">Let's get started</h1>

@@ -1,25 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
-/* styling for Onboarding */
+/* rensponsive for large laptop screens */
 
 .Onboarding{
     background: url(../../assets/Cars_lnd-scp_1.jpg);
     background-size: cover;
-    height: 100%;
-    width: 100%;
+    min-height: 100vh;
     background-position-y: center;
     animation: change 60s infinite ease-in-out;
 }
 .Onbd-Overlay{
     background: rgba(255, 255, 255, 0.664);
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
 }
 .Onbd-txt{
-    padding: 18%;
     text-align: center;
+    margin: 15rem 0rem;
 }
 .Onbd-spn{
     font-weight: 700;
     font-family: inter;
     color: white;
+    font-size: 25px;
     background: #0057ff;
     padding: 30px;
     mix-blend-mode:darken;
@@ -54,26 +57,253 @@
     0%
     {
         content: "THE POTENCY OF INSURANCE INTEGRATION";
-        font-size: 25px;
     }
     25%
     {
         content: "WELCOME TO THE MODERN INSURANCE ERA";
-        font-size: 25px;
     }
     50%
     {
         content: "WE INSURE AUTOMOBILES";
-        font-size: 25px;
     }
     75%
     {
         content: "WE INSURE PORPERTIES";
-        font-size: 25px;
     }
     100%
     {
         content: "CHECK OUT OUR AMAZING INSURANCE PLANS";
-        font-size: 25px;  
+    }
+}
+
+@media only screen and (max-width: 1025px){
+    .Onboarding{
+        background: url(../../assets/Cars_lnd-scp_1.jpg);
+        background-size: cover;
+        min-height: 100vh;
+        background-position-y: center;
+        animation: change 60s infinite ease-in-out;
+    }
+    .Onbd-Overlay{
+        background: rgba(255, 255, 255, 0.664);
+        min-height: 100vh;
+        display:flex;
+        flex-direction: column;
+    }
+    .Onbd-txt{
+        text-align: center;
+        margin: 15rem 0rem;
+    }
+    .Onbd-spn{
+        font-weight: 700;
+        font-family: inter;
+        font-size: 22px;
+        color: white;
+        background: #0057ff;
+        padding: 30px;
+        mix-blend-mode:darken;
+    }
+    .Onbd-spn:after{
+        content: "";
+        animation: spin 15s infinite ease-in-out;
+    }
+    @keyframes change{
+        0%
+        {
+            background-image: url(../../assets/Cars_lnd-scp_1.jpg);
+        }
+        25%
+        {
+            background-image: url(../../assets/House_lnd-scp_1.jpg);
+        }
+        50%
+        {
+            background-image: url(../../assets/Cars__lnd-scp_2.jpg);
+        }
+        75%
+        {
+            background-image: url(../../assets/House_lnd-scp_2.jpg);
+        }
+        100%
+        {
+            background-image: url(../../assets/House_lnd-scp_3.jpg);
+        }
+    }
+    @keyframes spin{
+        0%
+        {
+            content: "THE POTENCY OF INSURANCE INTEGRATION";
+        }
+        25%
+        {
+            content: "WELCOME TO THE MODERN INSURANCE ERA";
+        }
+        50%
+        {
+            content: "WE INSURE AUTOMOBILES";
+        }
+        75%
+        {
+            content: "WE INSURE PORPERTIES";
+        }
+        100%
+        {
+            content: "CHECK OUT OUR AMAZING INSURANCE PLANS";
+        }
+    }
+}
+
+/* responsive for tab */
+@media only screen and (max-width: 769px) {
+    .Onboarding{
+        background: url(../../assets/Cars_lnd-scp_1.jpg);
+        background-size: cover;
+        min-height: 100vh;
+        background-position-y: center;
+        animation: change 60s infinite ease-in-out;
+    }
+    .Onbd-Overlay{
+        background: rgba(255, 255, 255, 0.664);
+        min-height: 100vh;
+        display:flex;
+        flex-direction: column;
+    }
+    .Onbd-txt{
+        text-align: center;
+        margin: 15rem 0rem;
+    }
+    .Onbd-spn{
+        font-weight: 700;
+        font-family: inter;
+        font-size: 18px;
+        color: white;
+        background: #0057ff;
+        padding: 20px;
+        mix-blend-mode:darken;
+    }
+    .Onbd-spn:after{
+        content: "";
+        animation: spin 15s infinite ease-in-out;
+    }
+    @keyframes change{
+        0%
+        {
+            background-image: url(../../assets/Cars_lnd-scp_1.jpg);
+        }
+        25%
+        {
+            background-image: url(../../assets/House_lnd-scp_1.jpg);
+        }
+        50%
+        {
+            background-image: url(../../assets/Cars__lnd-scp_2.jpg);
+        }
+        75%
+        {
+            background-image: url(../../assets/House_lnd-scp_2.jpg);
+        }
+        100%
+        {
+            background-image: url(../../assets/House_lnd-scp_3.jpg);
+        }
+    }
+    @keyframes spin{
+        0%
+        {
+            content: "THE POTENCY OF INSURANCE INTEGRATION";
+        }
+        25%
+        {
+            content: "WELCOME TO THE MODERN INSURANCE ERA";
+        }
+        50%
+        {
+            content: "WE INSURE AUTOMOBILES";
+        }
+        75%
+        {
+            content: "WE INSURE PORPERTIES";
+        }
+        100%
+        {
+            content: "CHECK OUT OUR AMAZING INSURANCE PLANS";
+        }
+    }
+}
+
+@media only screen and (max-width: 426px){
+    .Onboarding{
+        background: url(../../assets/Cars_lnd-scp_1.jpg);
+        background-size: cover;
+        min-height: 100vh;
+        background-position-y: center;
+        animation: change 60s infinite ease-in-out;
+    }
+    .Onbd-Overlay{
+        background: rgba(255, 255, 255, 0.664);
+        min-height: 100vh;
+        display:flex;
+        flex-direction: column;
+    }
+    .Onbd-txt{
+        text-align: center;
+        margin: 15rem 0rem;
+    }
+    .Onbd-spn{
+        font-weight: 700;
+        font-family: inter;
+        font-size: 12px;
+        color: white;
+        background: #0057ff;
+        padding: 10px;
+        mix-blend-mode:darken;
+    }
+    .Onbd-spn:after{
+        content: "";
+        animation: spin 15s infinite ease-in-out;
+    }
+    @keyframes change{
+        0%
+        {
+            background-image: url(../../assets/Cars_lnd-scp_1.jpg);
+        }
+        25%
+        {
+            background-image: url(../../assets/House_lnd-scp_1.jpg);
+        }
+        50%
+        {
+            background-image: url(../../assets/Cars__lnd-scp_2.jpg);
+        }
+        75%
+        {
+            background-image: url(../../assets/House_lnd-scp_2.jpg);
+        }
+        100%
+        {
+            background-image: url(../../assets/House_lnd-scp_3.jpg);
+        }
+    }
+    @keyframes spin{
+        0%
+        {
+            content: "THE POTENCY OF INSURANCE INTEGRATION";
+        }
+        25%
+        {
+            content: "WELCOME TO THE MODERN INSURANCE ERA";
+        }
+        50%
+        {
+            content: "WE INSURE AUTOMOBILES";
+        }
+        75%
+        {
+            content: "WE INSURE PORPERTIES";
+        }
+        100%
+        {
+            content: "CHECK OUT OUR AMAZING INSURANCE PLANS";
+        }
     }
 }

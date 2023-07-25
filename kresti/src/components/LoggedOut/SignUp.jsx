@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import NavBar from './Onboarding/NavBar'
 import FootBar from './Onboarding/FootBar'
-import './SignUp.css'
 import BusinessGoals from '../../assets/Business_goals_2.jpg'
 
 function SignUp() {

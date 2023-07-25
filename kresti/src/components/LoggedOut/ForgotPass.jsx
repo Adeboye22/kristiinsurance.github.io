@@ -1,5 +1,4 @@
 import React from 'react';
-import './ForgotPass.css';
 
 function ForgotPass() {
   return (

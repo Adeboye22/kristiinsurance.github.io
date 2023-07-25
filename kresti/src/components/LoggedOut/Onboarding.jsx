@@ -5,18 +5,15 @@ import './Onboarding.css'
 
 function Onboarding() {
   return (
-    <React.Fragment>
-        <div className = "Onboarding">
-          <div className="Onbd-Overlay">
-            <NavBar />
-            <div className="Onbd-txt">
-              <span className='Onbd-spn'></span>
-            </div>
-            <FootBar />
-          </div> 
+    <div className = "Onboarding">
+      <div className="Onbd-Overlay">
+        <NavBar />
+        <div className="Onbd-txt">
+          <span className='Onbd-spn'></span>
         </div>
-    </React.Fragment>
-
+        <FootBar />
+      </div> 
+    </div>
   )
 }
 

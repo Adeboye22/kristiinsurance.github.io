@@ -1,5 +1,4 @@
 import React from 'react'
-import './ResetPass.css'
 
 function ResetPass() {
   return (

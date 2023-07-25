@@ -17,7 +17,7 @@ function NavLoggedIn() {
       <header className='flex'>
         <h1>Kresti Investment Agency</h1>
         <nav className='flex'>
-            <ul className='flex'>
+            <ul className='flex gap-x-1'>
                 <li><NavLink style={navLinkStyle} to = '/Homepage' element = {<Homepage />} className = ''>Home</NavLink></li>
                 <li><NavLink style={navLinkStyle} to = '/Services' element = {<Services />} className =''>Services</NavLink></li>
                 <li><NavLink style={navLinkStyle} to = '/Contact' element = {<Contact />} className = ''>Contact Us</NavLink></li>
